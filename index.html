@@ -5,69 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap"
       rel="stylesheet"
     />
   </head>
-  <body class="font-[Comic_Relief] bg-white dark:bg-gray-700">
-    <div class="mx-5">
+  <body class="font-[Comic_Relief] bg-white dark:bg-linear-to-t from-neutral-800 to-sky-800 2xl:overflow-hidden">
+    <div class="mx-5 2xl:h-[6vh]">
       <nav
         class="shadow-xl rounded-b-xl bg-linear-65 from-emerald-100 to-blue-200"
       >
         <div class="flex p-4 justify-center items-center">
-          <span class="text-2xl">Home of Cats!</span>
-          <span class="text-md ms-4">(click on a cat to see more pictures of it!)</span>
+          <span class="sm:text-2xl text-xl">Home of Cats!</span>
+          <span class="sm:text-md text-sm sm:ms-4 ms-2">(click on a cat to see more pictures of it!)</span>
         </div>
       </nav>
     </div>
-    <div class="container mx-auto max-w-screen my-10 min-h-screen">
-      <div class="grid gap-20 md:grid-cols-2 place-items-center mx-10">
+    <div class="container mx-auto max-w-screen 2xl:h-[88vh] flex 2xl:items-center 2xl:my-0 my-10">
+      <div class="grid gap-20 2xl:grid-cols-4 md:grid-cols-2 place-items-center mx-10 w-screen">
         <div
-          class="lg:w-md w-xs rounded-xl overflow-hidden shadow hover:shadow-xl hover:bg-gray-200 bg-white"
+          class="2xl:w-sm lg:w-md w-sm rounded-xl overflow-hidden shadow hover:shadow-xl hover:bg-gray-200 bg-white"
           id="white-tiger"
         >
           <a href="white-tiger.html">
             <img
-              class="w-full"
+              class="w-full h-[25rem] object-cover"
               src="assets/white-tiger.jpeg"
               alt="White Tiger"
             />
-            <div class="px-6 py-4">
+            <div class="px-6 py-4 h-[8rem]">
               <div class="font-bold text-xl mb-2">White Tiger</div>
               <p class="text-gray-700 text-base">
-                The playful pretty white baby, LOVES food and pets.
+                The playful pretty white baby; LOVES food and pets.
               </p>
             </div>
           </a>
         </div>
         <div
-          class="lg:w-md w-xs rounded-xl overflow-hidden shadow hover:shadow-xl hover:bg-gray-200 bg-white"
+          class="2xl:w-sm lg:w-md w-sm rounded-xl overflow-hidden shadow hover:shadow-xl hover:bg-gray-200 bg-white"
           id="luna"
         >
           <a href="luna.html">
-            <img class="w-full" src="assets/luna.jpeg" alt="Luna" />
-            <div class="px-6 py-4">
+            <img class="w-full h-[25rem] object-cover" src="assets/luna-6.jpeg" alt="Luna" />
+            <div class="px-6 py-4 h-[8rem]">
               <div class="font-bold text-xl mb-2">Luna</div>
               <p class="text-gray-700 text-base">
-                The always-grumpy mother, hates getting petted.
+                The always-grumpy mother; hates getting petted.
               </p>
             </div>
           </a>
         </div>
         <div
-          class="lg:w-md w-xs rounded-xl overflow-hidden shadow hover:shadow-xl hover:bg-gray-200 bg-white"
+          class="2xl:w-sm lg:w-md w-sm rounded-xl overflow-hidden shadow hover:shadow-xl hover:bg-gray-200 bg-white"
         >
           <a href="kitties.html">
             <img
-              class="w-full"
+              class="w-full h-[25rem] object-cover"
               src="assets/choco.jpeg"
               alt="Choco"
               id="choco"
             />
-            <div class="px-6 py-4">
+            <div class="px-6 py-4 h-[8rem]">
               <div class="font-bold text-xl mb-2">
                 Kitties of
                 <a href="#luna" class="text-sky-800 hover:text-black"
@@ -85,18 +84,18 @@
           </a>
         </div>
         <div
-          class="lg:w-md w-xs rounded-xl overflow-hidden shadow hover:shadow-xl hover:bg-gray-200 bg-white"
+          class="2xl:w-sm lg:w-md w-sm rounded-xl overflow-hidden shadow hover:shadow-xl hover:bg-gray-200 bg-white"
           id="catcuddles"
         >
           <a href="cats.html">
             <img
-              class="w-full"
+              class="w-full h-[25rem] object-cover"
               src="assets/catcuddles.jpeg"
               alt="Cat Cuddles"
             />
-            <div class="px-6 py-4">
+            <div class="px-6 py-4 h-[8rem]">
               <div class="font-bold text-xl mb-2">
-                What's better then a cat? Multiple Cats!
+                What's better than a cat? Multiple Cats!
               </div>
               <p class="text-gray-700 text-base">
                 2 Kittens and their
@@ -108,14 +107,14 @@
         </div>
       </div>
     </div>
-    <div class="mx-5">
-      <nav
-        class="shadow-xl rounded-t-xl bg-linear-65 to-emerald-100 from-blue-200"
+    <div class="mx-5 2xl:h-[6vh]">
+      <footer
+        class="shadow-2xl rounded-t-xl bg-linear-65 to-emerald-100 from-blue-200"
       >
         <div class="flex p-4 justify-center">
           <span class="text-2xl">by Sivayogeith Umamaheswaran with :3</span>
         </div>
-      </nav>
+      </footer>
     </div>
   </body>
 </html>

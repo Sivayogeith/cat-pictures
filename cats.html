@@ -11,26 +11,39 @@
       href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    >
+    <link rel="stylesheet" href="animation.css" />
   </head>
   <body class="font-[Comic_Relief]">
-    <div class="mx-5">
+    <div class="mx-5 fixed top-0 inset-x-0 h-[6vh]">
       <nav
         class="shadow-xl rounded-b-xl bg-linear-65 from-emerald-100 to-blue-200"
       >
-        <div class="flex p-4 justify-center">
-          <a class="hover:text-sky-800" href="index.html"><span class="text-2xl">Cat Pictures!</span></a>
+        <div class="flex p-4 items-center">
+          <a class="hover:text-sky-800" href="index.html"
+            ><span class="text-xl">Back</span></a
+          >
+          <div class="text-center w-full">
+            <h1 class="text-2xl">The page of cats hangin' out</h1>
+          </div>
         </div>
       </nav>
     </div>
-    <div class="container mx-auto max-w-screen my-10"></div>
-    <div class="mx-5">
-      <nav
+    <div
+      class="container max-w-screen my-10 h-[88vh] items-center flex overflow-hidden"
+    >
+      <div
+        class="flex gap-20 w-max hover:[animation-play-state:paused] animate-(--scroll)"
+      ></div>
+    </div>
+    <div class="mx-5 fixed inset-x-0 bottom-0 h-[6vh]">
+      <footer
         class="shadow-xl rounded-t-xl bg-linear-65 to-emerald-100 from-blue-200"
       >
         <div class="flex p-4 justify-center">
           <span class="text-2xl">by Sivayogeith Umamaheswaran with :3</span>
         </div>
-      </nav>
+      </footer>
     </div>
   </body>
 </html>

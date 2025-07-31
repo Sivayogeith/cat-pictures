@@ -1,0 +1,8 @@
+body {
+  --scroll: scroll 5s forwards linear infinite;
+}
+@keyframes scroll {
+  to {
+    transform: translate(-290%);
+  }
+}

@@ -1,4 +1,7 @@
 # Cat Pictures
+
+![Home Page Image](https://github.com/Sivayogeith/cat-pictures/blob/main/assets/home-page.png?raw=true)
+
 This website is a submission for [Hack Club's Grub](https://grub.hackclub.com/)!
 
 It follows Grub's rules of ONLY making the website with Tailwind CSS and HTML - it doesn't even use Pure CSS except for custom animations.
